@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Hacking Project // The Gossip Project
 
-Things you may want to cover:
+Projet validant en peer learning
 
-* Ruby version
+Loan Do et Marine Calderon
 
-* System dependencies
+____________________________________________________________
 
-* Configuration
+Langage utilisé :
 
-* Database creation
+Rails 5.2.3
+Ruby 2.5.1
 
-* Database initialization
 
-* How to run the test suite
+Gem demandées :
+gem 'faker'
+gem 'table_print'
 
-* Services (job queues, cache servers, search engines, etc.)
+Pour tester l'application Web :
+$ bundle install
+$ rails db:migrate
+$ rails db:seed
+$ rails server
 
-* Deployment instructions
+puis http://localhost:3000/
 
-* ...
+XoXo
